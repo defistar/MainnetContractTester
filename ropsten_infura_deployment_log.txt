@@ -1,0 +1,86 @@
+lakshmikanth-MacBook-Pro:perlin-RoboAdvisor lakshmikanth$ truffle migrate --reset --network  kovan_infura
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Migrations.sol
+> Artifacts written to /Users/lakshmikanth/Documents/PerlinX/robo-advisor/perlin-RoboAdvisor/build/contracts
+> Compiled successfully using:
+   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'kovan_infura'
+> Network id:      42
+> Block gas limit: 12487794 (0xbe8c72)
+
+
+1_initial_migration.js
+======================
+1_initial_migration:  kovan_infura
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x0220cfe950639610159b00adab7a715857bc407de703ff5018b0ead0c1cfdffd
+   > Blocks: 1            Seconds: 6
+   > contract address:    0x6701762D08122513daAb70cb9853d51670645979
+   > block number:        21523070
+   > block timestamp:     1602668388
+   > account:             0x1c4411c670Ef6c3B1009B5D13C3822b977b52ce1
+   > balance:             0.613571334
+   > gas used:            225237 (0x36fd5)
+   > gas price:           30 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00675711 ETH
+
+   Pausing for 1 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 21523071)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00675711 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'PerlinRoboAdvisor'
+   -----------------------------
+   > transaction hash:    0xf663c74e0d6afbf8537e3b66952ec2791a4230fa37f1064cb515437a634ff93f
+   > Blocks: 1            Seconds: 5
+   > contract address:    0xcfaE432A0c799BB1490016D5D7a54F00bf59f912
+   > block number:        21523078
+   > block timestamp:     1602668428
+   > account:             0x1c4411c670Ef6c3B1009B5D13C3822b977b52ce1
+   > balance:             0.590394564
+   > gas used:            730196 (0xb2454)
+   > gas price:           30 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02190588 ETH
+
+   Pausing for 1 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 21523080)
+PerlinRoboAdvisor is deployed with Address: 0xcfaE432A0c799BB1490016D5D7a54F00bf59f912
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02190588 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.02866299 ETH
+
+
+lakshmikanth-MacBook-Pro:perlin-RoboAdvisor lakshmikanth$ truffle version
+Truffle v5.2.0-preserves.8 (core: 5.2.0-preserves.8)
+Solidity v0.5.16 (solc-js)
+Node v11.10.1
+Web3.js v1.2.1
+lakshmikanth-MacBook-Pro:perlin-RoboAdvisor lakshmikanth$ 
